@@ -10,4 +10,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+
+    public int mul(int varA, int varB) {
+        int result;
+        result = varA * varB;
+        return result;
+    }
+
+    public int div(int varA, int varB) {
+        int result;
+        result = varA / varB;
+        return result;
+    }
+
+    public int power(int varA, int varB) {
+        int result;
+        result = varA ^ varB;
+        return result;
+    }
 }
